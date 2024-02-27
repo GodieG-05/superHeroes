@@ -12,23 +12,53 @@ body{
     font-weight: 500;
     font-size: 2rem;
     font-style: normal;
-    padding: 2%;
-    background: linear-gradient(rgb(0, 255, 247), purple)
+}
+.marvel{
+    background: url(https://e0.pxfuel.com/wallpapers/886/82/desktop-wallpaper-marvel-universe-marvel-agents-of-shield-the-avengers-marvel-comics-marvel-thumbnail.jpg)repeat center;
+    padding-bottom: 2%;
+}
+.dc{
+    background: url(https://e0.pxfuel.com/wallpapers/618/219/desktop-wallpaper-justice-league-logo-dc-logo-thumbnail.jpg) repeat top;
+    padding-bottom: 2%;
+}
+.dc__titulo{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+.dc__titulo h1{
+    padding: 0% 2%;
+    background: linear-gradient(rgb(193, 191, 191), rgb(192, 130, 243));
+    border: solid 2px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 3px 5px 2px rgb(255, 255, 255);
+}
+.marvel__titulo{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+.marvel__titulo h1{
+    padding: 0% 2%;
+    background: linear-gradient(rgb(193, 191, 191), rgb(231, 107, 107));
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 3px 5px 2px rgb(0, 0, 0);
 }
 article{
+    padding: 0px 1%;
     display: grid;
     gap:20px;
-    grid-template: repeat(2, 0.5fr) / repeat(auto-fit, minmax(275px, 1fr));
+    grid-template: repeat(2, 0.5fr) / repeat(auto-fit, minmax(333px, 1fr));
     grid-auto-flow: row;
 
 }
 .grid-item{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     border: solid 1px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 3px 3px 10px rgb(142, 14, 247);
     background: rgb(193, 191, 191);
 }
 .grid-item__info{
@@ -36,10 +66,15 @@ article{
     justify-content:space-around;
     font-size: 1.5rem;
     font-weight: 700;
+    position: relative;
+    bottom: 2.5%;
+}
+.grid-item__info p:nth-child(2){
+    border-bottom: solid 1px;
 }
 .grid-item img{
     height: 90%;
     object-fit: cover;
-    object-position: center;
     border-radius: 5px;
+    border-radius: 30px 0px 0px 0px;
 }
