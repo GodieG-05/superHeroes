@@ -14,7 +14,7 @@ const dcHeros = [
     },
     {
         "name" : "SUPERMAN",
-        "picture" : "https://i.pinimg.com/originals/82/41/5d/82415d90ebfd1b84c348088f6d09e5c2.jpg",
+        "picture" : "https://wallpaper-house.com/data/out/12/wallpaper2you_476190.jpg",
         "about" : {
             "Personaje" : "SUPERMAN",
             "Nombre Real" : "Clark Kent",
@@ -157,7 +157,7 @@ const dcHeros = [
     },
     {
         "name" : "RAVEN",
-        "picture" : "https://e0.pxfuel.com/wallpapers/63/524/desktop-wallpaper-raven-dc-raven-dc-comics.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a55bf5bd-631d-47c7-8901-8e15acb1385f/dbps6je-bd1cce26-e063-46f5-912d-62b268bfaeb5.jpg/v1/fit/w_828,h_1198,q_70,strp/raven__dc_comics__by_d_thorazza_dbps6je-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMwMyIsInBhdGgiOiJcL2ZcL2E1NWJmNWJkLTYzMWQtNDdjNy04OTAxLThlMTVhY2IxMzg1ZlwvZGJwczZqZS1iZDFjY2UyNi1lMDYzLTQ2ZjUtOTEyZC02MmIyNjhiZmFlYjUuanBnIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.zZ8jHSTuRWooN1yOgXrDM3iVU1OPLrnmx61Tq1uHtUA",
         "about" : {
             "Personaje" : "RAVEN",
             "Nombre Real" : "Rachel Roth",
@@ -170,7 +170,7 @@ const dcHeros = [
     },
     {
         "name" : "HARLEY QUINN",
-        "picture" : "https://c4.wallpaperflare.com/wallpaper/206/333/254/harley-quinn-women-comic-art-comics-dc-comics-hd-wallpaper-preview.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cf7d592-cf7d-4140-8f44-e5ed33d5ccc8/da1u52y-683feb94-a4a3-47f5-8ce6-cfde745c8710.jpg/v1/fit/w_800,h_1073,q_70,strp/classic_harley_quinn__pink__by_cdubbart_da1u52y-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA3MyIsInBhdGgiOiJcL2ZcLzZjZjdkNTkyLWNmN2QtNDE0MC04ZjQ0LWU1ZWQzM2Q1Y2NjOFwvZGExdTUyeS02ODNmZWI5NC1hNGEzLTQ3ZjUtOGNlNi1jZmRlNzQ1Yzg3MTAuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ruc7GejAz3nQv3YqmKXBd2yTpm6eu0FQkkFDNcd0hIM",
         "about" : {
             "Personaje" : "RAVEN",
             "Nombre Real" : "Harleen Quinzel",
@@ -186,7 +186,7 @@ const dcHeros = [
 const marvelHeros = [
     {
         "name" : "IRON MAN",
-        "picture" : "https://e0.pxfuel.com/wallpapers/716/542/desktop-wallpaper-artstation-ironman-mark-46-egor-rumyantcev-thumbnail.jpg",
+        "picture" : "https://e0.pxfuel.com/wallpapers/789/268/desktop-wallpaper-iron-man-armor-light-iphone-iron-man-3.jpg",
         "about" : {
             "Personaje" : "IRON MAN",
             "Nombre Real" : "Tony Stark",
@@ -199,7 +199,7 @@ const marvelHeros = [
     },
     {
         "name" : "SPIDERMAN",
-        "picture" : "https://e0.pxfuel.com/wallpapers/785/111/desktop-wallpaper-the-amazing-spider-man-2-2014-phone-moviemania-spiderman-artwork-amazing-spiderman-movie-marvel-spiderman-art-spider-man-amazing-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62c3be9c-03eb-457b-828c-9ba7bd43894f/dgktmtf-7c8d81a7-521f-439b-b764-b5e74b237b52.png/v1/fill/w_894,h_894,q_70,strp/spiderman_1_by_ody2000_dgktmtf-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzYyYzNiZTljLTAzZWItNDU3Yi04MjhjLTliYTdiZDQzODk0ZlwvZGdrdG10Zi03YzhkODFhNy01MjFmLTQzOWItYjc2NC1iNWU3NGIyMzdiNTIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RhPiSOBa8cqhdadVwwtJS0k1ZJ7a6_w8qU-JxzQIPXU",
         "about" : {
             "Personaje" : "SPIDERMAN",
             "Nombre Real" : "Peter Parker",
@@ -212,7 +212,7 @@ const marvelHeros = [
     },
     {
         "name" : "HULK",
-        "picture" : "https://e0.pxfuel.com/wallpapers/208/947/desktop-wallpaper-hulk-dc-marvel-avengers-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f088e588-51fb-4ba4-aeb8-eb6a22af1f51/d3jdjgi-caea55bd-8dc0-4327-9feb-a01f84843a68.jpg/v1/fit/w_752,h_1123,q_70,strp/hulk_blast_by_cric_d3jdjgi-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEyMyIsInBhdGgiOiJcL2ZcL2YwODhlNTg4LTUxZmItNGJhNC1hZWI4LWViNmEyMmFmMWY1MVwvZDNqZGpnaS1jYWVhNTViZC04ZGMwLTQzMjctOWZlYi1hMDFmODQ4NDNhNjguanBnIiwid2lkdGgiOiI8PTc1MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6LBQ-qPN_vXTKLuGEeBMFOa_j9MgLgY5LacfGNnkjMg",
         "about" : {
             "Personaje" : "HULK",
             "Nombre Real" : "Bruce Banner",
@@ -225,7 +225,7 @@ const marvelHeros = [
     },
     {
         "name" : "THOR",
-        "picture" : "https://e0.pxfuel.com/wallpapers/291/600/desktop-wallpaper-thor-ideas-thor-the-mighty-thor-marvel-comics-thor-comic-art-thumbnail.jpg",
+        "picture" : "https://wallpapercave.com/wp/wp7254382.jpg",
         "about" : {
             "Personaje" : "THOR",
             "Nombre Real" : "Thor Odinson",
@@ -238,7 +238,7 @@ const marvelHeros = [
     },
     {
         "name" : "PANTERA NEGRA",
-        "picture" : "https://e0.pxfuel.com/wallpapers/850/896/desktop-wallpaper-black-panther-in-2020-marvel-comics-black-panther-marvel-black-panther-movie-poster-neon-panther-thumbnail.jpg",
+        "picture" : "https://w0.peakpx.com/wallpaper/572/492/HD-wallpaper-pantera-negra-vision.jpg",
         "about" : {
             "Personaje" : "PANTERA NEGRA",
             "Nombre Real" : "T'Challa",
@@ -251,7 +251,7 @@ const marvelHeros = [
     },
     {
         "name" : "VENOM",
-        "picture" : "https://e0.pxfuel.com/wallpapers/369/143/desktop-wallpaper-venom-american-comic-character-thumbnail.jpg",
+        "picture" : "https://i.pinimg.com/564x/35/a2/e2/35a2e2955497f5b819325c20534601f3.jpg",
         "about" : {
             "Personaje" : "VENOM",
             "Nombre Real" : "Eddie Brock",
@@ -264,7 +264,7 @@ const marvelHeros = [
     },
     {
         "name" : "DOCTOR STRANGE",
-        "picture" : "https://e0.pxfuel.com/wallpapers/863/668/desktop-wallpaper-doctor-strange-thor-doctor-strange-comics-avengers-marvel-comicon-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62c3be9c-03eb-457b-828c-9ba7bd43894f/dgktk8w-35c60328-1ebd-44b9-9854-a353e130b3b2.png/v1/fill/w_894,h_894,q_70,strp/docteur_strange_1_by_ody2000_dgktk8w-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzYyYzNiZTljLTAzZWItNDU3Yi04MjhjLTliYTdiZDQzODk0ZlwvZGdrdGs4dy0zNWM2MDMyOC0xZWJkLTQ0YjktOTg1NC1hMzUzZTEzMGIzYjIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PeMVkk69dVoJ_Pka1fhCH-L7WvuSxlq_BS6RYnfwQ1A",
         "about" : {
             "Personaje" : "DOCTOR STRANGE",
             "Nombre Real" : "Stephen Strange",
@@ -277,7 +277,7 @@ const marvelHeros = [
     },
     {
         "name" : "THANOS",
-        "picture" : "https://e0.pxfuel.com/wallpapers/174/455/desktop-wallpaper-thanos-desenhos-marvel-avengers-and-comics-galactus-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/49ec1464-d899-400a-b608-c48c76b500d2/dcoifxg-643f3e36-753e-4a2a-abe0-b8f72e8fd388.jpg/v1/fill/w_760,h_1051,q_70,strp/thanos_by_patrickbrown_dcoifxg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc2OSIsInBhdGgiOiJcL2ZcLzQ5ZWMxNDY0LWQ4OTktNDAwYS1iNjA4LWM0OGM3NmI1MDBkMlwvZGNvaWZ4Zy02NDNmM2UzNi03NTNlLTRhMmEtYWJlMC1iOGY3MmU4ZmQzODguanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.z1-wWhwUg4eWfTonij_PhKbxpPheTOzsp4dhWg7fCDA",
         "about" : {
             "Personaje" : "THANOS",
             "Nombre Real" : "Thanos",
@@ -290,7 +290,7 @@ const marvelHeros = [
     },
     {
         "name" : "DEADPOOL",
-        "picture" : "https://www.enwallpaper.com/wp-content/uploads/2021/11/www.mobilesmspk.net-deadpool-4419.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6441ee9b-54fb-4041-bf26-402b76cb2850/dcfraug-56787b53-d074-4d74-8487-8bb467f5a223.jpg/v1/fit/w_828,h_1172,q_70,strp/deadpool_xmen_by_puekkers_dcfraug-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0OSIsInBhdGgiOiJcL2ZcLzY0NDFlZTliLTU0ZmItNDA0MS1iZjI2LTQwMmI3NmNiMjg1MFwvZGNmcmF1Zy01Njc4N2I1My1kMDc0LTRkNzQtODQ4Ny04YmI0NjdmNWEyMjMuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.aJErAfW-kIYR_AnjmbV1SVVwxUxTitasxD3nXTDEa8M",
         "about" : {
             "Personaje" : "DEADPOOL",
             "Nombre Real" : "Wade Wilson",
@@ -303,7 +303,7 @@ const marvelHeros = [
     },
     {
         "name" : "CAPITÁN AMÉRICA",
-        "picture" : "https://e0.pxfuel.com/wallpapers/554/665/desktop-wallpaper-captain-america-captain-america-super-hero-thumbnail.jpg",
+        "picture" : "https://storage.googleapis.com/pai-images/8f6bd84c180d4bd7889aa84623d519bb.jpeg",
         "about" : {
             "Personaje" : "CAPITÁN AMÉRICA",
             "Nombre Real" : "Steve Rogers",
@@ -316,7 +316,7 @@ const marvelHeros = [
     },
     {
         "name" : "WOLVERINE",
-        "picture" : "https://e0.pxfuel.com/wallpapers/610/46/desktop-wallpaper-wolverine-comic-art-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bbd40bfd-1136-4c82-9c75-e050eb44ab4d/ddvgm9d-e04646a8-1ac8-4b92-b0a2-6820722aea7a.jpg/v1/fit/w_828,h_1036,q_70,strp/astounding_wolverine_by_joserealart_ddvgm9d-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEyNSIsInBhdGgiOiJcL2ZcL2JiZDQwYmZkLTExMzYtNGM4Mi05Yzc1LWUwNTBlYjQ0YWI0ZFwvZGR2Z205ZC1lMDQ2NDZhOC0xYWM4LTRiOTItYjBhMi02ODIwNzIyYWVhN2EuanBnIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.rExcJRTDj1pGEwpQTtmjepRgAaKx2RKm1pN6nDVG5X4",
         "about" : {
             "Personaje" : "WOLVERINE",
             "Nombre Real" : "Logan (James Howlett)",
@@ -329,7 +329,7 @@ const marvelHeros = [
     },
     {
         "name" : "PUNISHER",
-        "picture" : "https://e0.pxfuel.com/wallpapers/599/987/desktop-wallpaper-the-punisher-marvel-the-punisher-comics-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62c3be9c-03eb-457b-828c-9ba7bd43894f/dgktjz8-9d9d8773-36b6-4758-b4c4-b4b36779995a.png/v1/fill/w_894,h_894,q_70,strp/le_punisher_1_by_ody2000_dgktjz8-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzYyYzNiZTljLTAzZWItNDU3Yi04MjhjLTliYTdiZDQzODk0ZlwvZGdrdGp6OC05ZDlkODc3My0zNmI2LTQ3NTgtYjRjNC1iNGIzNjc3OTk5NWEucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.z1pVX0DbnSrE56X3mDYMooL_iP44sEF8qcenmXNf0vE",
         "about" : {
             "Personaje" : "PUNISHER",
             "Nombre Real" : "Frank Castle",
@@ -342,7 +342,7 @@ const marvelHeros = [
     },
     {
         "name" : "DOCTOR DOOM",
-        "picture" : "https://e1.pxfuel.com/desktop-wallpaper/52/237/desktop-wallpaper-dr-doom-doctor-doom-marvel-comics-thumbnail.jpg",
+        "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c7ea0f64-410e-47ce-8c91-e73a1330273f/dc5uncb-a827f440-a2c4-4742-90c4-7c1e99e61ded.jpg/v1/fit/w_828,h_1280,q_70,strp/doctor_doom_by_ianar_dc5uncb-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU4MyIsInBhdGgiOiJcL2ZcL2M3ZWEwZjY0LTQxMGUtNDdjZS04YzkxLWU3M2ExMzMwMjczZlwvZGM1dW5jYi1hODI3ZjQ0MC1hMmM0LTQ3NDItOTBjNC03YzFlOTllNjFkZWQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4JYQM-c6Aqxrg3-qKEHUY39kf9ZUEOe8f-fjhY8dYOo",
         "about" : {
             "Personaje" : "DOCTOR DOOM",
             "Nombre Real" : "Victor von Doom",
@@ -355,7 +355,7 @@ const marvelHeros = [
     },
     {
         "name" : "DAREDEVIL",
-        "picture" : "https://e0.pxfuel.com/wallpapers/863/715/desktop-wallpaper-marco-checchetto-on-twitter-daredevil-comic-marvel-daredevil-marvel-comics-art-daredevil-comics-thumbnail.jpg",
+        "picture" : "https://images6.alphacoders.com/901/901586.jpg",
         "about" : {
             "Personaje" : "DAREDEVIL",
             "Nombre Real" : "Matt Murdok",
@@ -423,7 +423,6 @@ dcHeros.forEach(hero =>{
     closeButton.classList.add('close');
     closeButton.textContent = "Cerrar"
 
-    const clonedImg = img.cloneNode(true);
     //Agrupando los elementos en sus respectivos contenedores
     modalFooter.appendChild(closeButton);
     modalContent.appendChild(modalBody);
@@ -436,24 +435,23 @@ dcHeros.forEach(hero =>{
     for(const[key, value] of Object.entries(about)){
         const h1 = document.createElement('h1');
         const parrafo = document.createElement('p');
-        const hr = document.createElement('hr');
         h1.textContent = key;
         parrafo.textContent = value;
         modalBody.appendChild(h1);
         modalBody.appendChild(parrafo);
-        modalBody.appendChild(hr);
     }
-    botonP.onclick = function() {
-        modalContainer.style.display = "block";
-    }
-    closeButton.onclick = function() {
+    botonP.addEventListener('click', function(){
+        modalContainer.style.display = "block"
+    })
+    closeButton.addEventListener('click', function() {
         modalContainer.style.display = "none"
+    })
+    document.addEventListener('click', function(event) {
+    // Verificar si el clic ocurrió fuera de la ventana modal
+    if (event.target === modalContainer) {
+        modalContainer.style.display = "none"; // Cerrar la ventana modal
     }
-    window.onclick = function(event) {
-        if (event.target == modalContainer) {
-            modalContainer.style.display = "none";
-        }
-    }
+    })
 })
 
 const marvelContainer = document.getElementById("marvel__heros");
@@ -521,22 +519,21 @@ marvelHeros.forEach(hero =>{
     for(const[key, value] of Object.entries(about)){
         const h1 = document.createElement('h1');
         const parrafo = document.createElement('p');
-        const hr = document.createElement('hr');
         h1.textContent = key;
         parrafo.textContent = value;
         modalBody.appendChild(h1);
         modalBody.appendChild(parrafo);
-        modalBody.appendChild(hr);
     }
-    botonP.onclick = function() {
-        modalContainer.style.display = "block";
-    }
-    closeButton.onclick = function() {
+    botonP.addEventListener('click', function(){
+        modalContainer.style.display = "block"
+    })
+    closeButton.addEventListener('click', function() {
         modalContainer.style.display = "none"
+    })
+    document.addEventListener('click', function(event) {
+    // Verificar si el clic ocurrió fuera de la ventana modal
+    if (event.target === modalContainer) {
+        modalContainer.style.display = "none"; // Cerrar la ventana modal
     }
-    window.onclick = function(event) {
-        if (event.target == modalContainer) {
-            modalContainer.style.display = "none";
-        }
-    }
+    })
 })
