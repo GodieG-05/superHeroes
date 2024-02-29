@@ -1,4 +1,4 @@
-const dcHeros = [
+const heroes = [
     {
         "name" : "BATMAN",
         "picture" : "https://majorspoilers.com/wp-content/uploads/2019/12/BATMAN_Cv86-scaled.jpg",
@@ -172,7 +172,7 @@ const dcHeros = [
         "name" : "HARLEY QUINN",
         "picture" : "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6cf7d592-cf7d-4140-8f44-e5ed33d5ccc8/da1u52y-683feb94-a4a3-47f5-8ce6-cfde745c8710.jpg/v1/fit/w_800,h_1073,q_70,strp/classic_harley_quinn__pink__by_cdubbart_da1u52y-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA3MyIsInBhdGgiOiJcL2ZcLzZjZjdkNTkyLWNmN2QtNDE0MC04ZjQ0LWU1ZWQzM2Q1Y2NjOFwvZGExdTUyeS02ODNmZWI5NC1hNGEzLTQ3ZjUtOGNlNi1jZmRlNzQ1Yzg3MTAuanBnIiwid2lkdGgiOiI8PTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ruc7GejAz3nQv3YqmKXBd2yTpm6eu0FQkkFDNcd0hIM",
         "about" : {
-            "Personaje" : "RAVEN",
+            "Personaje" : "HARLEY QUINN",
             "Nombre Real" : "Harleen Quinzel",
             "Universo" : "DC",
             "Categoria" : "Villano",
@@ -180,10 +180,7 @@ const dcHeros = [
             "Enemigo Principal" : "Batman, y en ocasiones, ella misma",
             "Historia" : "Harleen Quinzel era una psiquiatra que se enamoró del Joker mientras trabajaba en Arkham Asylum. Se convirtió en su compañera y cómplice criminal, adoptando la identidad de Harley Quinn y luchando junto a él contra Batman y otros enemigos."
         }
-    }
-]
-
-const marvelHeros = [
+    },
     {
         "name" : "IRON MAN",
         "picture" : "https://e0.pxfuel.com/wallpapers/789/268/desktop-wallpaper-iron-man-armor-light-iphone-iron-man-3.jpg",
@@ -368,11 +365,12 @@ const marvelHeros = [
     }
 ]
 
+//Funcion para crear cada item
+function crearItems(hero){
 
-const dcContainer = document.getElementById("dc__heros");
-
-dcHeros.forEach(hero =>{
-
+    const dcContainer = document.getElementById("dc__heros");
+    const marvelContainer = document.getElementById("marvel__heros");
+    
     //Crear el elemento div que va a contener la tarjeta de cada heroe
     const gridItem = document.createElement('div')
     gridItem.classList.add('grid-item');
@@ -402,8 +400,12 @@ dcHeros.forEach(hero =>{
     gridItem.appendChild(img);
     gridItem.appendChild(infoDiv);
 
-    //Agregar el grid-item a dcContainer 'dc__heros'
-    dcContainer.appendChild(gridItem);
+    //Agregar el grid-item a dcContainer o marvelContainer segun universo del personaje
+    if (hero.about.Universo === 'DC') {
+        dcContainer.appendChild(gridItem);
+    } else {
+        marvelContainer.appendChild(gridItem);
+    }
 
     //Creando Ventana Modal
     //Creando elementos de la ventana modal y nombrando sus clases
@@ -428,8 +430,13 @@ dcHeros.forEach(hero =>{
     modalContent.appendChild(modalBody);
     modalContent.appendChild(modalFooter);
     modalContainer.appendChild(modalContent);
-    dcContainer.appendChild(modalContainer);
     modalContent.style.backgroundImage = `url('${hero.picture}')`;
+    //Agregar el modalContainer a dcContainer o marvelContainer segun universo del personaje
+    if (hero.about.Universo === 'DC') {
+        dcContainer.appendChild(modalContainer);
+    } else {
+        marvelContainer.appendChild(modalContainer);
+    }
     //Creando y agregando elementos html segun la pareja llave valor de about de cada heroe
     const about = hero.about;
     for(const[key, value] of Object.entries(about)){
@@ -452,88 +459,67 @@ dcHeros.forEach(hero =>{
         modalContainer.style.display = "none"; // Cerrar la ventana modal
     }
     })
-})
+}
 
-const marvelContainer = document.getElementById("marvel__heros");
+function cargarHeroes(heroe = ""){
+    if( heroe !== "" ){
+        crearItems(heroe)
 
-marvelHeros.forEach(hero =>{
+    } else {
+        document.getElementById("dc__heros").innerHTML = ""
+        document.getElementById("marvel__heros").innerHTML = ""
+        heroes.forEach(hero =>{
+            crearItems(hero)
+        })
 
-    //Crear el elemento div que va a contener la tarjeta de cada heroe
-    const gridItem = document.createElement('div')
-    gridItem.classList.add('grid-item');
-
-    //Crear el elemento img
-    const img = document.createElement('img');
-    img.src = hero.picture;
-    img.alt = hero.name;
-
-    //Crear el elemento div que contiene el nombre y el boton del heroe
-    const infoDiv = document.createElement('div');
-    infoDiv.classList.add('grid-item__info')
-
-    //Crear los elementos p para el nombre y el boton
-    const nameP = document.createElement('p');
-    nameP.textContent = hero.name;
-
-    const botonP = document.createElement('button');
-    botonP.textContent = 'VER';
-
-    //Agregar los elementos p a infoDiv
-    infoDiv.appendChild(nameP);
-    infoDiv.appendChild(botonP);
-
-    //Agregar los elementos img e infoDiv a al div grid-item
-    gridItem.appendChild(img);
-    gridItem.appendChild(infoDiv);
-
-    //Agregar el grid-item a dcContainer 'marvel__heros'
-    marvelContainer.appendChild(gridItem);
-    //Creando Ventana Modal
-    //Creando elementos de la ventana modal y nombrando sus clases
-    const modalContainer = document.createElement('div');
-    modalContainer.classList.add('modal');
-
-    const modalContent = document.createElement('div');
-    modalContent.classList.add('modal-content');
-
-    const modalBody = document.createElement('div');
-    modalBody.classList.add('modal-body');
-
-    const modalFooter = document.createElement('div');
-    modalFooter.classList.add('modal-footer');
-
-    const closeButton = document.createElement('button');
-    closeButton.classList.add('close');
-    closeButton.textContent = "Cerrar"
-
-    const clonedImg = img.cloneNode(true);
-    //Agrupando los elementos en sus respectivos contenedores
-    modalFooter.appendChild(closeButton);
-    modalContent.appendChild(modalBody);
-    modalContent.appendChild(modalFooter);
-    modalContainer.appendChild(modalContent);
-    dcContainer.appendChild(modalContainer);
-    modalContent.style.backgroundImage = `url('${hero.picture}')`;
-    //Creando y agregando elementos html segun la pareja llave valor de about de cada heroe
-    const about = hero.about;
-    for(const[key, value] of Object.entries(about)){
-        const h1 = document.createElement('h1');
-        const parrafo = document.createElement('p');
-        h1.textContent = key;
-        parrafo.textContent = value;
-        modalBody.appendChild(h1);
-        modalBody.appendChild(parrafo);
     }
-    botonP.addEventListener('click', function(){
-        modalContainer.style.display = "block"
-    })
-    closeButton.addEventListener('click', function() {
-        modalContainer.style.display = "none"
-    })
-    document.addEventListener('click', function(event) {
-    // Verificar si el clic ocurrió fuera de la ventana modal
-    if (event.target === modalContainer) {
-        modalContainer.style.display = "none"; // Cerrar la ventana modal
+}
+
+//Al seleccionar de la lista desplegable puede cambiar los héroes
+document.getElementById('select').addEventListener('change', function() {
+
+    cargarHeroes();
+    const dc_full = document.getElementById("dc");
+    const marvel_full = document.getElementById("marvel");
+    const filters = document.getElementById("filters");
+
+    //Se deshabilita el html del universo que no corresponda para que no se muestre
+    if( this.value === 'DC' ) {
+        dc_full.style.display = "grid";
+        marvel_full.style.display = "none";
+        filters.style.background = "black";
+
+    } else if( this.value === 'Marvel') {
+        dc_full.style.display = "none";
+        marvel_full.style.display = "grid";
+        filters.style.background= '#960E00';     
+    } else {
+        dc_full.style.display = "grid";
+        marvel_full.style.display = "grid";
+        filters.style.background = "black";
     }
-    })
-})
+});
+
+//Función para buscar solamente un héroe
+function buscarHeroe(){
+    const gridItem = document.querySelector('grid-item')
+    let inputValue = document.getElementById("search").value; 
+    document.getElementById("search").value = "";
+    const heroe = heroes.find(f => f.name === inputValue.toUpperCase());
+
+    //Si existe lo muestra, sino, entonces muesta un alerta
+    if (heroe){
+        document.getElementById("dc__heros").innerHTML = "";
+        document.getElementById("marvel__heros").innerHTML = "";
+        cargarHeroes(heroe);
+
+    } else {
+        alert("No se encuentra tal héroe");
+
+    }
+    
+}
+
+//Inicialmente se cargan todos los héroes
+cargarHeroes();
+

@@ -8,22 +8,38 @@
     <title>SuperHeros Comics</title>
 </head>
 <body>
-    <section class="dc">
-        <div class="dc__titulo">
-            <h1>DC COMICS</h1>
+    <!-- Parte de los filtros -->
+    <div class="filters" id="filters">
+        <div class="div-select">
+            <select name="select" id="select" >
+                <option value="all" selected>Todos</option>
+                <option value="DC">DC</option>
+                <option value="Marvel">Marvel</option>
+            </select>   
         </div>
-        <br>
-        <article id="dc__heros">
-        </article>
-    </section>
-    <hr><hr>
-    <section class="marvel">
-        <div class="marvel__titulo">
-            <h1>MARVEL COMICS</h1>
+        <div class="div-search">
+            <input type="text" id="search" placeholder="Buscar"  />
+            <input class="button" type="button" value="O" onclick="buscarHeroe()"/>
         </div>
-        <article id="marvel__heros">
-        </article>
-    </section>
+    </div>
+
+    <!-- Seccion de dc -->
+        <section class="dc" id="dc">
+            <div class="dc__titulo">
+                <h1>DC COMICS</h1>
+            </div>
+            <article id="dc__heros">
+            </article>
+        </section>
+
+    <!-- Sección de Marvel -->
+        <section class="marvel" id="marvel">
+            <div class="marvel__titulo">
+                <h1>MARVEL COMICS</h1>
+            </div>
+            <article id="marvel__heros">
+            </article>
+        </section>    
     <script src="js/app.js" defer></script>
 </body>
 </html>
