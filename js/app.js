@@ -55,7 +55,7 @@ const dcHeros = [
         "name" : "LINTERNA VERDE",
         "picture" : "https://www.gamespot.com/a/uploads/original/1562/15626911/3079590-hjglc_1_02_color_rev4.jpg",
         "about" : {
-            "Personaje" : "FLASH",
+            "Personaje" : "LINTERNA VERDE",
             "Nombre Real" : "Hal Jordan",
             "Universo" : "DC",
             "Categoria" : "Superheroe",
@@ -79,7 +79,7 @@ const dcHeros = [
     },
     {
         "name" : "DARKSEID",
-        "picture" : "https://rare-gallery.com/thumbnail/1404113-darkseid-Personajes-hd-4k-5k-artist-artwork.jpg",
+        "picture" : "https://images7.alphacoders.com/109/1096648.jpg",
         "about" : {
             "Personaje" : "DARKSEID",
             "Nombre Real" : "Uxas",
@@ -406,17 +406,12 @@ dcHeros.forEach(hero =>{
     dcContainer.appendChild(gridItem);
 
     //Creando Ventana Modal
+    //Creando elementos de la ventana modal y nombrando sus clases
     const modalContainer = document.createElement('div');
     modalContainer.classList.add('modal');
 
     const modalContent = document.createElement('div');
     modalContent.classList.add('modal-content');
-
-    const modalHeader = document.createElement('div');
-    modalHeader.classList.add('modal-header');
-
-    const closeModal = document.createElement('span');
-    closeModal.classList.add('close')
 
     const modalBody = document.createElement('div');
     modalBody.classList.add('modal-body');
@@ -424,6 +419,41 @@ dcHeros.forEach(hero =>{
     const modalFooter = document.createElement('div');
     modalFooter.classList.add('modal-footer');
 
+    const closeButton = document.createElement('button');
+    closeButton.classList.add('close');
+    closeButton.textContent = "Cerrar"
+
+    const clonedImg = img.cloneNode(true);
+    //Agrupando los elementos en sus respectivos contenedores
+    modalFooter.appendChild(closeButton);
+    modalContent.appendChild(modalBody);
+    modalContent.appendChild(modalFooter);
+    modalContainer.appendChild(modalContent);
+    dcContainer.appendChild(modalContainer);
+    modalContent.style.backgroundImage = `url('${hero.picture}')`;
+    //Creando y agregando elementos html segun la pareja llave valor de about de cada heroe
+    const about = hero.about;
+    for(const[key, value] of Object.entries(about)){
+        const h1 = document.createElement('h1');
+        const parrafo = document.createElement('p');
+        const hr = document.createElement('hr');
+        h1.textContent = key;
+        parrafo.textContent = value;
+        modalBody.appendChild(h1);
+        modalBody.appendChild(parrafo);
+        modalBody.appendChild(hr);
+    }
+    botonP.onclick = function() {
+        modalContainer.style.display = "block";
+    }
+    closeButton.onclick = function() {
+        modalContainer.style.display = "none"
+    }
+    window.onclick = function(event) {
+        if (event.target == modalContainer) {
+            modalContainer.style.display = "none";
+        }
+    }
 })
 
 const marvelContainer = document.getElementById("marvel__heros");
@@ -458,6 +488,55 @@ marvelHeros.forEach(hero =>{
     gridItem.appendChild(img);
     gridItem.appendChild(infoDiv);
 
-    //Agregar el grid-item a dcContainer 'dc__heros'
+    //Agregar el grid-item a dcContainer 'marvel__heros'
     marvelContainer.appendChild(gridItem);
+    //Creando Ventana Modal
+    //Creando elementos de la ventana modal y nombrando sus clases
+    const modalContainer = document.createElement('div');
+    modalContainer.classList.add('modal');
+
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modal-content');
+
+    const modalBody = document.createElement('div');
+    modalBody.classList.add('modal-body');
+
+    const modalFooter = document.createElement('div');
+    modalFooter.classList.add('modal-footer');
+
+    const closeButton = document.createElement('button');
+    closeButton.classList.add('close');
+    closeButton.textContent = "Cerrar"
+
+    const clonedImg = img.cloneNode(true);
+    //Agrupando los elementos en sus respectivos contenedores
+    modalFooter.appendChild(closeButton);
+    modalContent.appendChild(modalBody);
+    modalContent.appendChild(modalFooter);
+    modalContainer.appendChild(modalContent);
+    dcContainer.appendChild(modalContainer);
+    modalContent.style.backgroundImage = `url('${hero.picture}')`;
+    //Creando y agregando elementos html segun la pareja llave valor de about de cada heroe
+    const about = hero.about;
+    for(const[key, value] of Object.entries(about)){
+        const h1 = document.createElement('h1');
+        const parrafo = document.createElement('p');
+        const hr = document.createElement('hr');
+        h1.textContent = key;
+        parrafo.textContent = value;
+        modalBody.appendChild(h1);
+        modalBody.appendChild(parrafo);
+        modalBody.appendChild(hr);
+    }
+    botonP.onclick = function() {
+        modalContainer.style.display = "block";
+    }
+    closeButton.onclick = function() {
+        modalContainer.style.display = "none"
+    }
+    window.onclick = function(event) {
+        if (event.target == modalContainer) {
+            modalContainer.style.display = "none";
+        }
+    }
 })
